@@ -1,0 +1,37 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+:root {
+	--text_dec_color: #2196f3;
+	--body_color: #212121;
+	--body_select: red;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	color: var(--body_color);
+	background-color: #e5e5e5;
+}
+::selection {
+	background: var(--body_select);
+}
+.logo {
+	font-family: "Raleway", sans-serif;
+	font-size: 26px;
+	text-decoration: none;
+	line-height: 1.1738;
+}
+a:hover,
+button:hover {
+	text-decoration: underline;
+	text-decoration-color: var(--text_dec_color, #2196f3);
+}
+.logo_first_word {
+	color: #2196f3;
+}
+.buttons {
+	cursor: pointer;
+}
+ul {
+	list-style-type: none;
+}
