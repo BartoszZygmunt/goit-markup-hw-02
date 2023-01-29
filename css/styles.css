@@ -5,6 +5,9 @@ font-family: 'Roboto', sans-serif; test*/
 	--text_dec_color: #2196f3;
 	--body_color: #212121;
 	--body_select: red;
+	--light_background: #fff;
+	--dark_background: #2f303a;
+	--team_background: #e5e5e5;
 }
 
 body {
@@ -46,6 +49,11 @@ menu:hover {
 .logo_second_word {
 	color: #000;
 }
+
+.logo_second_word_footer {
+	color: rgba(255, 255, 255, 1);
+}
+
 .buttons {
 	cursor: pointer;
 	font-family: "Roboto", sans-serif;
@@ -79,4 +87,16 @@ ul {
 }
 .footer_mail_tel {
 	color: rgba(255, 255, 255, 0.6);
+}
+.light_background {
+	background-color: var(--light_background);
+}
+.dark_background {
+	background-color: var(--dark_background);
+}
+.team_background {
+	background-color: var(--team_background);
+}
+.baner_color {
+	color: rgba(255, 255, 255, 1);
 }
