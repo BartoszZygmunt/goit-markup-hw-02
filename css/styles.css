@@ -61,7 +61,7 @@ menu:hover {
 	line-height: 1.625;
 	font-weight: 500;
 }
-.buttons_blue {
+.buttons_current {
 	background-color: #2196f3;
 }
 .address_top {
@@ -104,15 +104,15 @@ ul {
 	color: rgba(255, 255, 255, 1);
 }
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
