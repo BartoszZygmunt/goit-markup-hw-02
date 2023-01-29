@@ -19,16 +19,19 @@ body {
 	font-family: "Raleway", sans-serif;
 	font-size: 26px;
 	line-height: 1.1738;
+	font-weight: 700;
+	color: var(--body_color);
 }
 .menu {
 	font-size: 14px;
 	line-height: 1.1721;
+	font-weight: 500;
 }
 
 a,
-button,
-menu {
+button {
 	text-decoration: none;
+	color: #212121;
 }
 
 a:hover,
@@ -40,9 +43,40 @@ menu:hover {
 .logo_first_word {
 	color: #2196f3;
 }
+.logo_second_word {
+	color: #000;
+}
 .buttons {
 	cursor: pointer;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	line-height: 1.625;
+	font-weight: 500;
+}
+.address_top {
+	color: #757575;
 }
 ul {
 	list-style-type: none;
+}
+.image_title {
+	font-size: 18px;
+	line-height: 2;
+	font-weight: 700;
+}
+.image_description {
+	font-size: 16px;
+	line-height: 1.875;
+	font-weight: 400;
+	color: #757575;
+}
+.footer {
+	font-size: 14px;
+	line-height: 1.7142;
+	font-weight: 400;
+	font-style: normal;
+	color: #fff;
+}
+.footer_mail_tel {
+	color: rgba(255, 255, 255, 0.6);
 }
