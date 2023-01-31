@@ -46,14 +46,23 @@ body {
 	font-weight: 500;
 }
 
-.address_top {
-	color: #757575;
+.address_top_email {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--accent-color);
+}
+.address_top_tel {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--owner-text-color);
 }
 
-a,
-button {
+a {
 	text-decoration: none;
-	color: #212121;
 }
 
 .button_page1 {
@@ -66,6 +75,8 @@ button {
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.06em;
+	cursor: pointer;
+	font-family: inherit;
 }
 .button_page1:hover {
 	color: black;
@@ -78,6 +89,7 @@ button {
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
+	color: rgba(255, 255, 255, 1);
 }
 
 a:hover,
@@ -87,10 +99,13 @@ menu:hover {
 
 .buttons {
 	cursor: pointer;
-	font-family: "Roboto", sans-serif;
+	font-family: inherit;
 	font-size: 16px;
 	line-height: 1.625;
 	font-weight: 500;
+	background-color: var(--buttons-port-color);
+	letter-spacing: 0.03em;
+	color: var(--main-text-color);
 }
 .buttons:hover {
 	background-color: #2196f3;
@@ -108,6 +123,7 @@ ul {
 	font-size: 18px;
 	line-height: 2;
 	font-weight: 700;
+	letter-spacing: 0.06em;
 }
 .image_description {
 	font-size: 16px;
@@ -115,15 +131,23 @@ ul {
 	font-weight: 400;
 	color: #757575;
 }
-.footer {
-	font-size: 14px;
-	line-height: 1.7142;
+.footer-address {
 	font-weight: 400;
-	font-style: normal;
+	line-height: 1.71;
 	color: #fff;
 }
+.footer-delete-italic {
+	font-style: normal;
+	/* usuwam domyślny styl ITALIC dla <address> */
+}
+.footer-background {
+	background-color: var(--background-footer-color);
+}
+
 .footer_mail_tel {
 	color: rgba(255, 255, 255, 0.6);
+	line-height: 1.71;
+	font-weight: 400;
 }
 .light_background {
 	background-color: var(--background-section);
@@ -134,9 +158,7 @@ ul {
 .team_background {
 	background-color: var(--buttons-port-color);
 }
-.baner_color {
-	color: rgba(255, 255, 255, 1);
-}
+
 .lorem-style {
 	font-weight: 700;
 	font-size: 14px;
@@ -145,13 +167,10 @@ ul {
 	text-transform: uppercase;
 }
 .lorem-text {
-	font-weight: 400;
-	font-size: 14px;
 	line-height: 1.71;
-	letter-spacing: 0.03em;
 	color: #757575;
 }
-.what-we-do {
+.section-title {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.16;
