@@ -39,11 +39,19 @@ body {
 .logo_second_word_footer {
 	color: rgba(255, 255, 255, 1);
 }
+.logo_second_word_footer:hover {
+	color: var(--accent-color);
+}
 
 .menu {
 	font-size: 14px;
 	line-height: 1.1721;
 	font-weight: 500;
+	color: var(--main-text-color); /*- zalecenie Ivana - ale chyba jednak nie?*/
+}
+
+.current {
+	color: var(--accent-color);
 }
 
 .address_top_email {
@@ -51,7 +59,7 @@ body {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: var(--accent-color);
+	color: var(--owner-text-color);
 }
 .address_top_tel {
 	font-weight: 500;
@@ -79,7 +87,7 @@ a {
 	font-family: inherit;
 }
 .button_page1:hover {
-	color: black;
+	color: #000;
 }
 
 .text_on_banner_page1 {
@@ -92,7 +100,8 @@ a {
 	color: rgba(255, 255, 255, 1);
 }
 
-a:hover,
+header a:hover,
+footer a:hover,
 menu:hover {
 	color: var(--accent-color);
 }
